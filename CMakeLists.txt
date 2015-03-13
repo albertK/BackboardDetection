@@ -12,8 +12,8 @@ add_definitions(${PCL_DEFINITIONS})
 add_executable (backboard_detection_final src/backboard_detection_v8.5.cpp)
 target_link_libraries (backboard_detection_final ${PCL_LIBRARIES} ${OpenCV_LIBS})
 
-add_executable (backboard_detection_final_v2 src/backboard_detection_v8.6.cpp src/openni_frame_source_albert.cpp)
-target_link_libraries (backboard_detection_final_v2 ${PCL_LIBRARIES} ${OpenCV_LIBS})
+#add_executable (backboard_detection_final_v2 src/backboard_detection_v8.6.cpp src/openni_frame_source_albert.cpp)
+#target_link_libraries (backboard_detection_final_v2 ${PCL_LIBRARIES} ${OpenCV_LIBS})
 
-add_executable (communication src/communication.cpp)
-add_executable (communication_test src/communication_test.cpp)
+#add_executable (communication src/communication.cpp)
+#add_executable (communication_test src/communication_test.cpp)
